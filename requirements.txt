@@ -1,9 +1,10 @@
 langchain
 langchain-community
 langchain-core
+langchain-groq
+langsmith
 langchain-google-genai
 requests
 tavily-python
 python-dotenv
-langchainhub
 streamlit
