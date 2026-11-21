@@ -1,0 +1,49 @@
+# Environment variables - NEVER commit secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environment
+env/
+venv/
+.venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+.eggs/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE & editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# LangSmith / LangChain cache
+.langchain.db
+langchain_cache/
+
+# Logs
+*.log
+logs/
+
+# OS
+desktop.ini
